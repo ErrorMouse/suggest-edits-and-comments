@@ -1,5 +1,6 @@
 === Suggest Edits and Comments ===
 Contributors:       nmtnguyen56
+Donate link:        https://chout.id.vn/donate
 Tags:               suggest edits, comments, inline comments, feedback, inline feedback
 Requires at least:  5.2
 Tested up to:       6.9
