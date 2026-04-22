@@ -1,0 +1,178 @@
+/* Tooltip Button */
+#suggest-edits-tooltip button {
+    padding: 6px 12px;
+    background-color: #1a73e8;
+    border: none;
+    color: #ffffff;
+    border-radius: 45px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#suggest-edits-tooltip button:hover {
+    background-color: #1557b0;
+}
+
+/* Feedback Input Form */
+#suggest-edits-form-box {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    width: 250px;
+}
+
+#suggest-edits-form-box textarea {
+    display: block;
+    width: 100%;
+    height: 80px;
+    padding: 8px;
+    margin-top: -30%;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+    border: thin solid #ccc;
+    border-radius: 4px;
+    font-size: 13px;
+    box-sizing: border-box;
+    resize: none;
+    outline: 0;
+    transition: .3s ease-in-out;
+}
+
+#suggest-edits-form-box textarea:focus {
+    border: thin solid #1a73e8;
+}
+
+#suggest-edits-form-box button {
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+#suggest-edits-submit {
+    background-color: #1a73e8;
+    color: white;
+}
+
+#suggest-edits-submit:hover {
+    background-color: #1557b0;
+}
+
+#suggest-edits-cancel {
+    background-color: #c5c5c5;
+    color: black;
+}
+
+/* Widget Styles */
+.suggest-edits-widget-list {
+    list-style: none;
+    padding: 0;
+}
+
+.suggest-edits-widget-list li {
+    padding: 10px 0;
+    border-bottom: 1px dashed #eee;
+    font-size: 14px;
+}
+
+.suggest-edits-widget-list em {
+    display: block;
+    background: #f9f9f9;
+    border-left: 3px solid #1a73e8;
+    padding: 5px 10px;
+    margin: 5px 0;
+    color: #555;
+    font-style: italic;
+}
+
+.suggest-edits-widget-list::-webkit-scrollbar {
+    width: 5px;
+}
+
+.suggest-edits-widget-list::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.suggest-edits-widget-list:not(.is-scrolling)::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.suggest-edits-widget-list.is-scrolling::-webkit-scrollbar-thumb,
+.suggest-edits-widget-list::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Comment Box */
+.suggest-edits-quote-box {
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    background: #f8f9fa;
+    border-left: 3px solid #1a73e8;
+    border-radius: 0 4px 4px 0;
+    font-size: 0.95em;
+}
+
+.suggest-edits-quote-box>div {
+    margin-bottom: 5px;
+    color: #1a73e8;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.suggest-edits-quote-box svg {
+    width: 12px;
+    height: 12px;
+    margin-top: -2px;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+.suggest-edits-quote-box a {
+    display: block;
+    color: #555;
+    font-style: italic;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+/* Toast Message UI */
+#suggest-edits-toast {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 12px 20px;
+    position: fixed;
+    z-index: 999999;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    font-size: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    opacity: 0;
+    transition: opacity 0.3s, bottom 0.3s, visibility 0.3s;
+}
+
+#suggest-edits-toast.show {
+    visibility: visible;
+    opacity: 1;
+    bottom: 50px;
+}
+
+#suggest-edits-toast.error {
+    background-color: #d32f2f;
+}
+
+#suggest-edits-toast.success {
+    background-color: #28a745;
+}

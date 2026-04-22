@@ -1,0 +1,253 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Suggest Edits and Comments 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-21 14:00+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgid "Allows users to highlight text within posts to easily submit comments and suggested edits."
+msgstr ""
+
+msgid "You do not have permission to submit suggested edits."
+msgstr ""
+
+msgid "Please log in to submit your suggested edit!"
+msgstr ""
+
+msgid "💬 Suggest Edit"
+msgstr ""
+
+msgid "Enter your suggested changes..."
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Please enter your suggested edit."
+msgstr ""
+
+msgid "Sending..."
+msgstr ""
+
+msgid "reCAPTCHA Error. Please refresh the page."
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Guests are not allowed to submit suggested edits."
+msgstr ""
+
+msgid "reCAPTCHA verification failed."
+msgstr ""
+
+msgid "reCAPTCHA connection error."
+msgstr ""
+
+msgid "Spam detected by reCAPTCHA."
+msgstr ""
+
+msgid "Please wait 30 seconds before submitting another edit."
+msgstr ""
+
+#, php-format
+msgid "You have reached the daily limit of %d suggested edits."
+msgstr ""
+
+msgid "Guest"
+msgstr ""
+
+msgid "Thank you for your suggestion!"
+msgstr ""
+
+msgid "An error occurred. Please try again."
+msgstr ""
+
+msgid "Suggest Edits History"
+msgstr ""
+
+#, php-format
+msgid "<strong>%1$s</strong> commented \"%2$s\" on <a href=\"%3$s\" target=\"_blank\">\"%4$s\"</a>"
+msgstr ""
+
+#, php-format
+msgid "<strong>%1$s</strong> commented \"%2$s\" on <a href=\"%3$s\" target=\"_blank\">this post</a>"
+msgstr ""
+
+msgid "No comments yet."
+msgstr ""
+
+msgid "Recent Suggested Edits"
+msgstr ""
+
+msgid "Title:"
+msgstr ""
+
+msgid "Number of suggested edits to show:"
+msgstr ""
+
+msgid "Max Height (px):"
+msgstr ""
+
+msgid "Max Characters for Referenced Text:"
+msgstr ""
+
+msgid "Show comment time"
+msgstr ""
+
+msgid "Just now"
+msgstr ""
+
+#, php-format
+msgid "%s min ago"
+msgid_plural "%s mins ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#, php-format
+msgid "%s hour ago"
+msgid_plural "%s hours ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#, php-format
+msgid "%s day ago"
+msgid_plural "%s days ago"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Referenced Text"
+msgstr ""
+
+msgid "View on Post"
+msgstr ""
+
+msgid "Suggested Edit Details"
+msgstr ""
+
+msgid "Referenced Text:"
+msgstr ""
+
+msgid "Go to Referenced Location"
+msgstr ""
+
+msgid "This is a standard comment (no Referenced Text)."
+msgstr ""
+
+msgid "SE & Comments Settings"
+msgstr ""
+
+msgid "Suggest Edits and Comments"
+msgstr ""
+
+msgid "Guest (Not logged in)"
+msgstr ""
+
+msgid "Permissions"
+msgstr ""
+
+msgid "Select which user roles are EXCLUDED from highlighting text and submitting suggested edits."
+msgstr ""
+
+msgid "Display Settings"
+msgstr ""
+
+msgid "Allowed Post Types"
+msgstr ""
+
+msgid "Target Selectors"
+msgstr ""
+
+msgid "CSS Class or ID where the highlight feature is active (e.g., .entry-content, #main-content, .product-desc). Separate multiple selectors with commas."
+msgstr ""
+
+msgid "Limitations & Anti-Spam"
+msgstr ""
+
+msgid "Max Highlight Length"
+msgstr ""
+
+msgid "Maximum number of characters users can highlight. Leave blank or set to 0 for unlimited."
+msgstr ""
+
+msgid "Daily Suggested Edits Limit"
+msgstr ""
+
+msgid "Maximum number of suggested edits a user (or IP address) can submit per day. Leave blank or set to 0 for unlimited."
+msgstr ""
+
+msgid "Google reCAPTCHA v3"
+msgstr ""
+
+msgid "Protect your suggested edits form from spam bots using invisible reCAPTCHA v3."
+msgstr ""
+
+msgid "Enable reCAPTCHA"
+msgstr ""
+
+msgid "Site Key"
+msgstr ""
+
+msgid "Secret Key"
+msgstr ""
+
+msgid "Quote Box"
+msgstr ""
+
+msgid "Border Left Color"
+msgstr ""
+
+msgid "Title Text Color"
+msgstr ""
+
+msgid "Highlight Tooltip Button"
+msgstr ""
+
+msgid "Button Text"
+msgstr ""
+
+msgid "Leave blank to use default text."
+msgstr ""
+
+msgid "Background Color"
+msgstr ""
+
+msgid "Background Hover Color"
+msgstr ""
+
+msgid "Submit Suggestion Button"
+msgstr ""
+
+msgid "Uninstall Options"
+msgstr ""
+
+msgid "What should happen when you delete this plugin?"
+msgstr ""
+
+msgid "Delete all comments submitted via this plugin."
+msgstr ""
+
+msgid "Delete all plugin settings."
+msgstr ""
+
+msgid "Save Settings"
+msgstr ""
+
+msgid "Settings saved successfully!"
+msgstr ""
+
+msgid "Donate to support this plugin"
+msgstr ""
+
+msgid "Donate"
+msgstr ""
